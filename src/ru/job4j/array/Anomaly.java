@@ -37,7 +37,6 @@ public class Anomaly {
                 }
             }
         }
-
         return Arrays.copyOf(result, count);
     }
 }

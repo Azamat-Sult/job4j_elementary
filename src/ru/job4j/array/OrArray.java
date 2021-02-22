@@ -2,7 +2,6 @@ package ru.job4j.array;
 
 public class OrArray {
 
-    @SuppressWarnings("checkstyle:SimplifyBooleanExpression")
     public static int[] or(int[] left, int[] right) {
         int count = 0;
         boolean elementIn;

@@ -3,7 +3,6 @@ package ru.job4j.array;
 public class Split {
 
     public static char[][] split(char[] str, char c) {
-
         int count1 = 0;
         for (char value : str) {
             if (value == c) {
@@ -13,7 +12,6 @@ public class Split {
         char[][] result = new char[count1 + 1][];
         count1 = 0;
         int count2 = 0;
-
         for (int index1 = 0; index1 < str.length; index1++) {
             if (str[index1] != c) {
                 count2++;

@@ -18,5 +18,4 @@ public class Point {
         System.out.println("result (2, 6) to (20, -5) " + result2);
         System.out.println("result (200, -26) to (-200, 50) " + result3);
     }
-
 }
